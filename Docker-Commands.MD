@@ -1,6 +1,9 @@
 Docker commands
 -----------------
-docker images --> it will listdown the images the server
+* it will listdown the images the server
+```
+docker images
+```
 docker pull image-name:version --> download the image from docker hub if you did not mention version latest one
 docker create image-id --> this will create docker container  
 docker ps --> listdown the running containers
