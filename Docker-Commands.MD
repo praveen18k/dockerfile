@@ -4,7 +4,10 @@ Docker commands
 ```
 docker images
 ```
-docker pull image-name:version --> download the image from docker hub if you did not mention version latest one
+* mention version latest one
+```
+docker pull image-name:version
+```
 docker create image-id --> this will create docker container  
 docker ps --> listdown the running containers
 docker ps -a --> list down all containers including running/stopped/exited/created
