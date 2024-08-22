@@ -1,5 +1,5 @@
 FROM almalinux:8
-RUN yum instal nginx -y
+RUN yum install nginx -y
 # by default it is tcp protocol 
 # EXPOSE is not adding any funtionality, this just for information
 EXPOSE 80/tcp 
