@@ -4,4 +4,4 @@
 
 FROM almalinux:8
 # we are not hard coding the website
-ENTRYPOINT ["ping", "-c5"]
+ENTRYPOINT [ "ping", "-c5" ]
