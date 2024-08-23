@@ -1,4 +1,5 @@
 #!/bin/bash
+# to run this script in vm use : curl git raw url | bash
 R="\e[31m"
 G="\e[32m"
 N="\e[0m"
