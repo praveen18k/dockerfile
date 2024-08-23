@@ -8,4 +8,4 @@ FROM almalinux:${version:-8}
 #you can also use 
 ARG COURSE
 ARG TRAINER
-RUN echo "Course is:{COURSE}, trainer is:{TRAINER}"
+RUN echo "Course is:${COURSE}, trainer is:${TRAINER}"
