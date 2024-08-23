@@ -8,4 +8,7 @@ FROM almalinux:${version:-8}
 #you can also use 
 ARG COURSE
 ARG TRAINER
+# If you want to use arg values inside container pass through ENV instruction
+ENV TRAINER=${TRAINER}
+ENV COURSE=${COURSE}
 RUN echo "Course is:${COURSE}, trainer is:${TRAINER}"
